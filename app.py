@@ -351,7 +351,7 @@ st.markdown(
 # AI / OLLAMA HELPERS
 # --------------------------------------------------
 GEMINI_MODEL = "gemini-2.5-flash"
-client = genai.Client(api_key="AIzaSyAOe1x-L9soZE9UIL_rZ0PJCb967XxRhwI")
+
 
 def build_rsv_split_context(df: pd.DataFrame, selected_sheet: str) -> dict:
     preview_df = df.copy()
