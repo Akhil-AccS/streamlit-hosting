@@ -351,7 +351,7 @@ st.markdown(
 # AI / OLLAMA HELPERS
 # --------------------------------------------------
 GEMINI_MODEL = "gemini-2.5-flash"
-
+api_key = st.secrets["GEMINI_API_KEY"]
 
 def build_rsv_split_context(df: pd.DataFrame, selected_sheet: str) -> dict:
     preview_df = df.copy()
